@@ -19,7 +19,8 @@ function draw() {
   yOff = yOff + .005;
   textFont(font);
   fill(90, 97, 109);
-  textSize(30);
+
+  textSize(windowWidth / 21);
   textAlign(CENTER);
   var arrLength = textLetters.length;
   var canvasWidth = (canvas.width) / 2;
