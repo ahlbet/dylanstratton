@@ -223,7 +223,7 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: rgba(247, 248, 250, 0.9);
+  background: #f7f8fa;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Roboto", sans-serif;
@@ -531,7 +531,14 @@ body {
       width: 100%;
       margin-bottom: 10px; } }
 @media screen and (max-width: 555px) {
-  .alt-content .page-content .projects .project-wrap .project {
-    height: 200px; }
-  .alt-content .page-content .contact .contact-wrap .social #email {
-    font-size: 18px; } }
+  .alt-content .page-content {
+    max-width: 90%; }
+    .alt-content .page-content .home .headshot {
+      height: 200px;
+      width: 200px; }
+    .alt-content .page-content .home h3 {
+      font-size: 18px; }
+    .alt-content .page-content .projects .project-wrap .project {
+      height: 200px; }
+    .alt-content .page-content .contact .contact-wrap .social #email {
+      font-size: 18px; } }
